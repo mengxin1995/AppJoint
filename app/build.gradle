@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "io.github.prototypez.appjoint.app"
+        applicationId PACKAGE_NAME as String
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
